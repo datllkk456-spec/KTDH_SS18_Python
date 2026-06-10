@@ -37,7 +37,7 @@ def show_product(product_list):
         print(header)
         print("="*len(header))
         for item in product_list:
-            print(f"{item['id']:<5} | {item['name']:<15} | {item['price': ,]:<12}")
+            print(f"{item['id']:<5} | {item['name']:<15} | {item['price']:<12}")
 
 
 while True:
