@@ -1,4 +1,7 @@
-product_list = []
+product_list = [
+    {'id': 'P01', 'name': 'Coca Cola', 'price': 15000},
+    {'id': 'P02', 'name': 'Bánh mì', 'price': 20000}
+]
 
 def add_product(product_list):
     ID = input("Nhập vào ID sản phẩm: ")
@@ -34,7 +37,7 @@ def show_product(product_list):
         print(header)
         print("="*len(header))
         for item in product_list:
-            print(f"{item['id']:<5} | {item['name']:<15} | {item['price']:<12}")
+            print(f"{item['id']:<5} | {item['name']:<15} | {item['price': ,]:<12}")
 
 
 while True:
